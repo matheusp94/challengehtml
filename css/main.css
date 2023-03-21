@@ -75,10 +75,10 @@ section {
     font-family: verdana, sans-serif;
     font-size: 12px;
     color: white;
+    line-height: 1.5;
 }
 
 /*rodapé*/
-
 footer {
     position: fixed;
     left: 0;
@@ -92,4 +92,21 @@ footer {
     padding: 10px 0px 10px;
 
 }
+
+/* barra de scroll */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+::-webkit-scrollbar-track {
+    background: rgb(249, 253, 255); 
+  }
+   
+::-webkit-scrollbar-thumb {
+    background: rgb(77, 76, 76); 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(172, 172, 172); 
+  }
 
