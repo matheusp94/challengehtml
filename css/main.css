@@ -5,16 +5,17 @@
 
 body {
     height: 125vh;
-    background-color: rgb(53, 58, 58);
+    background-color: #00a1fc;
     font-family: sans-serif;
     margin-top: 80px;
     padding: 30px;
 }
 
 /*Elementos do header*/
-header img {
-    height: 30px;
-    margin-left: 40px;
+#logo {
+    height: 40px;
+    margin-left: 25px;
+    margin-right: 18px;
 }
 
 header {
@@ -44,32 +45,47 @@ header li a {
 }
 
 header h1 {
+    display: none;
+}
+
+/* Links */
+ul {
+    display: inline;
+}
+
+a {
+    color: #000611;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #313131;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
+
+/* construção de textos */
+
+.porto {
     margin-left: 20px;
+    font-size: 18px;
     font-weight: 600;
-    background-image: linear-gradient(to left, #070707, #e9eaf1);
+    background-image: linear-gradient(to left, #011538, #e9eaf1);
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
 }
 
-
-/* construção de textos */
-
-h1 {
-    font-family: "Trebuchet MS", Tahoma, sans-serif;
-    font-size: 20px;
-    color: rgb(71, 65, 65);
-
-}
-
 h2 {
     font-family: "Trebuchet MS", Tahoma, sans-serif;
     font-size: 16px;
-    color: rgb(204, 200, 200);
+    color: #eeeeee;
     padding-bottom: 10px;
 
 }
-
 
 section {
     font-family: verdana, sans-serif;
@@ -109,7 +125,7 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(77, 76, 76);
+    background: #000816;
 }
 
 ::-webkit-scrollbar-thumb:hover {
