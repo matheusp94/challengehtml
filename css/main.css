@@ -19,7 +19,7 @@ body {
 }
 
 header {
-    background-color: rgb(249, 253, 255);
+    background-color: #f9fdff;
     position: fixed;
     top: 0;
     left: 0;
@@ -27,7 +27,7 @@ header {
     height: 80px;
     display: flex;
     align-items: center;
-    box-shadow: 0 0 25px 0 black;
+    box-shadow: 0 0 25px 0 #000000;
 }
 
 header * {
@@ -69,14 +69,8 @@ a:hover {
 
 /* construção de textos */
 
-.porto {
-    margin-left: 20px;
-    font-size: 18px;
-    font-weight: 600;
-    background-image: linear-gradient(to left, #011538, #e9eaf1);
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
+h1 {
+    display: none;
 }
 
 h2 {
@@ -106,7 +100,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(249, 253, 255);
+    background-color: #f9fdff;
     font-family: verdana, sans-serif;
     font-size: 11px;
     color: black;
@@ -121,7 +115,7 @@ footer {
 }
 
 ::-webkit-scrollbar-track {
-    background: rgb(249, 253, 255);
+    background: #f9fdff;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -129,5 +123,5 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(172, 172, 172);
+    background: #acacac;
 }
