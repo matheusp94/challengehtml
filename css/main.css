@@ -39,7 +39,7 @@ header li {
 }
 
 header li a {
-    color: black;
+    color: #000611;
     text-decoration: none;
     font-size: 12px;
 }
@@ -65,7 +65,7 @@ a:visited {
 
 a:hover {
     text-decoration: underline;
-  }
+}
 
 /* construção de textos */
 
